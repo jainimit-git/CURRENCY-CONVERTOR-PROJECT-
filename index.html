@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURRENCY CONVERTOR</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h2>CURRENCY CONVERTOR</h2>
+            <form>
+                <div class="amount">
+                    <p>ENTER AMOUNT</p>
+                    <input value="100" type="text">
+                </div>
+        </div>
+
+        <div class="dropdown">
+            <div class="from">
+                <p>FROM</p>
+                <div class="select-container">
+                    <img src="https://flagsapi.com/US/flat/64.png" />
+                    <select name="from"></select>
+                </div>
+            </div>
+            <img src="data:image/png;base64,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"
+                            alt="" srcset="">
+            <div class="to">
+                <p>TO</p>
+                <div class="select-container">
+                    <img src="https://flagsapi.com/IN/flat/64.png" />
+                    <select name="to"></select>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="msg">1USD = 80INR</div>
+        <button class="button">Get Exchange Rate</button>
+        </form>
+    </div>
+
+    <script src="codes.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
